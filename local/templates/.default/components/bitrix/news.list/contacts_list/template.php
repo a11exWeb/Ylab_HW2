@@ -13,10 +13,6 @@
 $this->setFrameMode(true);
 ?>
 
-<? echo "<pre>"; ?>
-<? //print_r($arResult); ?>
-<? echo "</pre>"; ?>
-
 <div class="news-list__custom">
 
 	<?foreach($arResult["ITEMS"] as $arItem):?>
